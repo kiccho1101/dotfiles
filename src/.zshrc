@@ -1,8 +1,10 @@
+export ROOTPATH=$HOME/Documents
+
 # Starship
 eval "$(starship init zsh)"
 
 # Enhancd
-source $HOME/Documents/src/github.com/b4b4r07/enhancd/init.sh
+source $ROOTPATH/src/github.com/b4b4r07/enhancd/init.sh
 export ENHANCD_FILTER=fzf
 export ENHANCD_HOOK_AFTER_CD=ls
 
@@ -14,10 +16,10 @@ export NVM_DIR="$HOME/.nvm"
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # zsh-syntax-highlighting
-source $HOME/Documents/src/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ROOTPATH/src/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # zsh-completions
-fpath=($HOME/Documents/src/github.com/zsh-users/zsh-completions/src $fpath)
+fpath=($ROOTPATH/src/github.com/zsh-users/zsh-completions/src $fpath)
 
 # zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -38,8 +40,8 @@ alias codeh='code $(ghq root)/$(ghq list | fzf)'
 alias do='docui'
 
 # go
-export GOPATH=$HOME/Documents
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # ignore case completion
-    zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
