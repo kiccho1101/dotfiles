@@ -10,7 +10,8 @@ backup:
 create-sl:
 	ln -sf ${PWD}/src/.vimrc ${HOME}/.vimrc \
 	&& ln -sf ${PWD}/src/.zshrc ${HOME}/.zshrc \
-	&& ln -sf ${PWD}/src/Brewfile ${HOME}/.config/brewfile/Brewfile
+	&& ln -sf ${PWD}/src/Brewfile ${HOME}/.config/brewfile/Brewfile \
+	&& ln -sf ${PWD}/src/.gitalias.txt ${HOME}/.gitalias.txt
 	
 
 
