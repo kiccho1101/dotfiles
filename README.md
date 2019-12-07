@@ -4,14 +4,14 @@ My dotfiles for MacOS 🎉
 
 ## Usage
 
-### Copy your dotfiles
+### Back up your current dotfiles
 
 ```bash
-make cp
+make backup
 ```
 
-### Apply changes
+### Create symbolic link
 
 ```bash
-make apply
+make create-cl
 ```

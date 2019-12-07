@@ -326,4 +326,3 @@ augroup templateGroup
     autocmd BufNewFile *.py :0r ~/vim-template/t.py
 augroup END
 " snippet
-let g:UltiSnipsSnippetDirectories=["~/vim-snippets/"]

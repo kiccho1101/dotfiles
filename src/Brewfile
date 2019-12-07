@@ -1,0 +1,113 @@
+# tap repositories and their packages
+
+tap homebrew/core
+brew aom
+brew cairo
+brew ccat
+brew cmake
+brew ffmpeg
+brew flac
+brew fontconfig
+brew freetype
+brew frei0r
+brew fribidi
+brew fzf
+brew fzy
+brew gdbm
+brew gettext
+brew ghq
+brew gibo
+brew giflib
+brew glib
+brew gmp
+brew gnutls
+brew go
+brew graphite2
+brew harfbuzz
+brew helm
+brew hstr
+brew htop
+brew hub
+brew icu4c
+brew jpeg
+brew lame
+brew lazydocker
+brew lazygit
+brew leptonica
+brew libass
+brew libbluray
+brew libevent
+brew libffi
+brew libidn2
+brew libogg
+brew libpng
+brew libsamplerate
+brew libsndfile
+brew libsoxr
+brew libtasn1
+brew libtiff
+brew libunistring
+brew libvidstab
+brew libvorbis
+brew libvpx
+brew little-cms2
+brew lzo
+brew mas
+brew mono
+brew ncurses
+brew nettle
+brew opencore-amr
+brew openjpeg
+brew openssl@1.1
+brew opus
+brew p11-kit
+brew pcre
+brew peco
+brew pgweb
+brew pipenv
+brew pixman
+brew python
+brew readline
+brew rtmpdump
+brew rubberband
+brew sdl2
+brew snappy
+brew speex
+brew sqlite
+brew starship
+brew tesseract
+brew theora
+brew tig
+brew tree
+brew unbound
+brew webp
+brew x264
+brew x265
+brew xvid
+brew xz
+brew youtube-dl
+brew zsh-history-substring-search
+
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+cask font-hack-nerd-font
+
+tap homebrew/cask
+
+tap argon/mas
+
+tap derailed/k9s
+brew k9s
+
+tap jesseduffield/lazydocker
+
+tap jesseduffield/lazygit
+
+tap jhawthorn/fzy
+
+tap rcmdnk/file
+brew brew-file
+
+tap skanehira/docui
+brew docui
