@@ -34,9 +34,10 @@ alias ls='ls -G'
 alias la='ls -la'
 alias ll='ls -la'
 alias gs='git status'
-alias cdh='cd $(ghq root)/$(ghq list | fzf)'
-alias gh='hub browse $(ghq list | fzf | cut -d "/" -f 2,3)'
-alias codeh='code $(ghq root)/$(ghq list | fzf)'
+alias g='cd $(ghq root)/$(ghq list | fzf)'
+alias gh="git-open"
+alias ghb='hub browse $(ghq list | fzf | cut -d "/" -f 2,3)'
+alias c='code $(ghq root)/$(ghq list | fzf)'
 alias do='docui'
 
 # go
