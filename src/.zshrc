@@ -37,7 +37,9 @@ alias gs='git status'
 alias g='cd $(ghq root)/$(ghq list | fzf)'
 alias gh="git-open"
 alias ghb='hub browse $(ghq list | fzf | cut -d "/" -f 2,3)'
-alias c='code $(ghq root)/$(ghq list | fzf)'
+alias gc='code $(ghq root)/$(ghq list | fzf)'
+alias fing='open $(ghq root)/$(ghq list | fzf)'
+alias finder='open `pwd`'
 alias do='docui'
 
 # go
@@ -45,4 +47,4 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # ignore case completion
-zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+    zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
