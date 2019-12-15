@@ -46,5 +46,5 @@ alias do='docui'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# ignore case completion
-    zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+# ignore case
+    CASE_SENSITIVE="true"
