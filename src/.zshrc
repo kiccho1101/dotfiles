@@ -42,6 +42,13 @@ alias fing='open $(ghq root)/$(ghq list | fzf)'
 alias finder='open `pwd`'
 alias do='docui'
 
+# poetry
+alias po='poetry run'
+alias pp='poetry run python'
+function pdev () {
+  poetry add -D black flake8 mypy pytest
+}
+
 # go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
